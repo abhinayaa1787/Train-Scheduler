@@ -1,0 +1,31 @@
+#timeSchedule{
+    text-align: center;
+    box-sizing: border-box;
+}
+.jumbotron{
+    text-align: center;
+    color:white;
+    background-color: rgb(170, 107, 70);
+    padding:20px;
+    margin:15px; 
+}
+.row{
+    border:0;
+}
+.card-header,#submitButton{
+    color:white;
+    background-color: rgb(9, 86, 117);
+}
+.card{
+    margin-bottom:20px;
+    border:1px solid rgb(9, 86, 117);
+}
+form{
+    line-height:1 em;
+}
+.form-control{
+    margin:0 5px 5px 5px;
+}
+#trainDetails{
+padding-top:0;
+}
