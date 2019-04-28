@@ -16,11 +16,11 @@ This has all the contents the users needs to see. This is the layout that appear
 This has the styles that are applied to the page
 
 
-####JS page
+#### JS page
 * This page has all the script to retrieve data from user, using a form
 * The user's input is pushed into the firebase.
 * Few values from the firebase objects are calculated and manipulated to be displayed on the schedule
 * The user also has an option to delete a row in the schedule and that deletion simultaneously happens in the database!
 
-####All aboard!! choo choo 
+#### All aboard!! choo choo 
 
