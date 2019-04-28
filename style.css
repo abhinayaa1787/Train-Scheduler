@@ -29,3 +29,7 @@ form{
 #trainDetails{
 padding-top:0;
 }
+.btn{
+    border:1px solid rgb(9, 86, 117);
+    padding:2px 8px;
+}

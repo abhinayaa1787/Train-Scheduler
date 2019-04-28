@@ -59,8 +59,9 @@ db.ref().on("child_added", function (childSnapshot) {
     $("<td>").text(frequency),
     $("<td>").text(train),
     $("<td>").text(minutesTillTrain),
-    $("<button>").text("Delete").addClass("btn").attr('id', childSnapshot.key),
-    $("<button>").text("Update").attr('trainUpdateId', childSnapshot.key)
+    // $("<button>").text("Update").attr('trainUpdateId', childSnapshot.key),
+
+    $("<button>").text("Delete").addClass("btn").attr('id', childSnapshot.key)
   );
 
   $("#trainTable > tbody").append(newRow);
